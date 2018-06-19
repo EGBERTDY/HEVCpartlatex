@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.2)  19 JUN 2018 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.2)  19 JUN 2018 10:50
 entering extended mode
 **./parttex.tex
 (parttex.tex
@@ -932,34 +932,35 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
 
 [1{C:/Users/dongy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
+
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 
 (parttex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `parttex.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 19849 strings out of 493328
- 343389 string characters out of 3139125
+ 19851 strings out of 493328
+ 343401 string characters out of 3139125
  532379 words of memory out of 3000000
  23201 multiletter control sequences out of 15000+200000
- 556689 words of font info for 67 fonts, out of 3000000 for 9000
+ 558845 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,6n,65p,947b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,6n,65p,947b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
 mr8a.pfb>
-Output written on parttex.pdf (1 page, 17138 bytes).
+Output written on parttex.pdf (1 page, 26020 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
