@@ -1,9 +1,12 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Preliminaries}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Quadtree Partition Structure}{section.2}% 3
-\BOOKMARK [1][-]{section.3}{Steganography using the intra CTU quadtree partition structure}{}% 4
-\BOOKMARK [2][-]{subsection.3.1}{Overview of the Proposed algorithm}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.2}{Quadtree coding embedding methods}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.3}{Analysis of statistical characteristic of different quadtree coding embedding methods}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.4}{Adaptive matching algorithm}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Experiments}{}% 9
+\BOOKMARK [1][-]{section.2}{Steganographic characteristic of HEVC intra quadtree partition structure}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Intra partition scheme in HEVC}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Distortion Analysis on visual quality}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Distortion Analysis on coding efficiency}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Distortion Analysis on Security}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{The proposed Steganographic method for HEVC}{}% 7
+\BOOKMARK [1][-]{section.4}{The generative algorithm}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{The adaptive matching scheme}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Framework}{}% 10
+\BOOKMARK [1][-]{section.6}{Experimental results}{}% 11
+\BOOKMARK [1][-]{section.7}{conclusion}{}% 12
