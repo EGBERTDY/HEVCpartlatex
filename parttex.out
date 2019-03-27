@@ -5,8 +5,8 @@
 \BOOKMARK [2][-]{subsection.2.3}{Distortion Analysis on coding efficiency}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{Distortion Analysis on Security}{section.2}% 6
 \BOOKMARK [1][-]{section.3}{The proposed Steganographic method for HEVC}{}% 7
-\BOOKMARK [1][-]{section.4}{The cover generator}{}% 8
-\BOOKMARK [2][-]{subsection.4.1}{The adaptive matching scheme}{section.4}% 9
-\BOOKMARK [1][-]{section.5}{Framework}{}% 10
-\BOOKMARK [1][-]{section.6}{Experimental results}{}% 11
-\BOOKMARK [1][-]{section.7}{conclusion}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{The cover generator}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{The adaptive matching scheme}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Framework}{}% 10
+\BOOKMARK [1][-]{section.5}{Experimental results}{}% 11
+\BOOKMARK [1][-]{section.6}{conclusion}{}% 12

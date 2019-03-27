@@ -29,7 +29,7 @@
 
 \begin{document}
 
-\title{Adaptive and Generative intra-frame steganography in HEVC video using the intra Block Partitioning Structure}
+\title{Adaptive and Generative Intra-frame Steganography in HEVC Video Using the Intra Block Partitioning Structure}
 \author{XXXX}
 	
 
@@ -77,9 +77,13 @@ dependences, and transform coding of the prediction residual
 signals to further exploit spatial statistical dependences[].Compared with the previous coding standards, HEVC proposes and adopts some new coding technologies based on  the classic block-based hybrid coding approach. With the introduction of these new technologies, the coding efficiency of HEVC has been greatly improved. The intra quadtree block partitioning structure is one of these key technologies.
 
 
-The HEVC standard has adopted a highly flexible and efficient block partitioning structure. Frames contains an integer multiple of CTU, which is an
-analogous term to the macroblock in H.264/AVC.by introducing four different block concepts: CTU, CU, PU, and TU, which are defined to have clearly separated roles. The terms coding tree block (CTB), coding block (CB), prediction block (PB), and TB are also defined to specify the 2-D sample array of one color component associated with the CTU, CU, PU, and TU, respectively. Thus, a CTU consists of one luma CTB, two chroma CTBs, and associated syntax elements. A similar relationship is valid for CU, PU, and TU.
+The HEVC standard has adopted a highly flexible and efficient block partitioning structure. Frames are splited into an integer multiple of CTU, which is an analogous term to the macroblock in H.264/AVC. A CTU consists of one luminance CTB and two chrominance CTB.The terms coding
+tree block (CTB) is defined to specify the 2-D sample array of one color component associated with the CTU. In the CTU, a quadtree is established. Let CTU size be 2N$\times$2N where N is one of the values of 32, 16, or 8. The CTU can be further recursively split into four smaller units of equal sizes of N$\times$N, which are nodes of the quadtree. If the
+units are leaf nodes of the quadtree, the units become coding units (CUs).
 
+
+HEVC utilizes CU as a unit to specify which prediction
+scheme is used for intra and inter predictions. 
 Although use of a quadtree structure in video compression is not a new concept, the coding tree approach in HEVC can bring additional coding efficiency benefits by incorporating PU and TU quadtree concepts for video compression.
 
 Leaf nodes of a tree can be merged or combined [22] in a general quadtree structured video coding scheme. After the final quadtree is formed, motion information is transmitted at the leaf nodes of the tree. L-shaped or rectangular-shaped motion partition is possible through merging and combination of nodes. However, in order to make such shapes, the merge process should be followed using smaller blocks after further splitting is occurred. in the HEVC block partitioning structure, such cases are taken care of by the PU [15]. Instead of splitting one depth more for merging and combination, predefined partition modes such as PART\_2N×2N, PART\_2N×N, and PART\_N×2N are tested and the optimal partition mode is selected at the leaf nodes of the tree. It is worthwhile mentioning that PUs still can share motion information through merging mode in HEVC. Although a general quadtree structure without PU concept was investigated by removing the symmetric rectangular partition modes (PART\_2N×N and PART\_N×2N) from the syntax and replaced by corresponding merge flags [23], both coding efficiency and complexity was proved inferior to the current design.
@@ -107,7 +111,7 @@ Spatial-domain intra prediction has previously been successfully used in H.264/ 
 \subsection{Distortion Analysis on Security}
 \section{The proposed Steganographic method for HEVC}
 
-\section{The cover generator}
+\subsection{The cover generator}
 
 \subsection{The adaptive matching scheme}
 \section{Framework}
